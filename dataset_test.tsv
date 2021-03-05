@@ -1,0 +1,671 @@
+	pred_ind	arg_ind	tokenized	label
+0	3	2	This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .	AGENT
+1	11	7	This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .	FORCES
+2	17	11	This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .	INSTRUMENT
+3	17	14	This BuzzMachine post argues that Google 's rush toward ubiquity might backfire -- which we 've all heard before , but it 's particularly well - put in this post .	AGENT
+4	1	0	I doubt the very few who actually read my blog have not come across this yet , but I figured I would put it out there anyways .	AGENT
+5	7	4	I doubt the very few who actually read my blog have not come across this yet , but I figured I would put it out there anyways .	AGENT
+6	7	9	I doubt the very few who actually read my blog have not come across this yet , but I figured I would put it out there anyways .	INSTRUMENT
+7	19	18	I doubt the very few who actually read my blog have not come across this yet , but I figured I would put it out there anyways .	AGENT
+8	1	0	He makes some good observations on a few of the pic's .	AGENT
+9	1	4	He makes some good observations on a few of the pic's .	FORCES
+10	4	0	One of the pictures shows a flag that was found in Fallujah .	INSTRUMENT
+11	4	6	One of the pictures shows a flag that was found in Fallujah .	FORCES
+12	6	4	On the next two pictures he took screenshots of two beheading video's .	NONE
+13	6	5	On the next two pictures he took screenshots of two beheading video's .	AGENT
+14	6	7	On the next two pictures he took screenshots of two beheading video's .	NONE
+15	1	0	You have to see these slides .... they are amazing .	AGENT
+16	1	0	Iran says it is creating nuclear energy without wanting nuclear weapons .	AGENT
+17	4	6	Iran says it is creating nuclear energy without wanting nuclear weapons .	FORCES
+18	2	4	But there is no proof .	FORCES
+19	1	0	I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .	AGENT
+20	1	3	I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .	FORCES
+21	7	10	I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .	NONE
+22	15	18	I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .	PATIENT
+23	21	20	I read an Article in Time magazine accusing the Iranian Government of being willing to start a nuclear war and I sympathise with the Article .	AGENT
+24	2	1	Many people want to use diplomacy with Iran rather than military pressure .	AGENT
+25	2	1	One reader pointed out that the President watched the Americans in the embassy when they took them hostage .	AGENT
+26	7	6	One reader pointed out that the President watched the Americans in the embassy when they took them hostage .	AGENT
+27	7	9	One reader pointed out that the President watched the Americans in the embassy when they took them hostage .	NONE
+28	1	0	"Reuters reported that "" Sunni clerics in the town issued a ' Declaration by the people of Fallujah ' condemning the deaths of the security guards and police , announcing three days of mourning , and calling for a general strike today . """	AGENT
+29	9	5	"Reuters reported that "" Sunni clerics in the town issued a ' Declaration by the people of Fallujah ' condemning the deaths of the security guards and police , announcing three days of mourning , and calling for a general strike today . """	AGENT
+30	9	12	"Reuters reported that "" Sunni clerics in the town issued a ' Declaration by the people of Fallujah ' condemning the deaths of the security guards and police , announcing three days of mourning , and calling for a general strike today . """	PATIENT
+31	19	21	"Reuters reported that "" Sunni clerics in the town issued a ' Declaration by the people of Fallujah ' condemning the deaths of the security guards and police , announcing three days of mourning , and calling for a general strike today . """	FORCES
+32	29	31	"Reuters reported that "" Sunni clerics in the town issued a ' Declaration by the people of Fallujah ' condemning the deaths of the security guards and police , announcing three days of mourning , and calling for a general strike today . """	NONE
+33	2	1	The clerics demanded talks with local US commanders .	AGENT
+34	2	3	The clerics demanded talks with local US commanders .	AGENT
+35	4	0	Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .	AGENT
+36	4	6	Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .	FORCES
+37	4	8	Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .	MANNER
+38	10	13	Cities such as Falluja received special treatment from Saddam and enjoyed a disproportionate share of the country 's wealth and power .	INSTRUMENT
+39	1	0	They know that the American advent implies for them a demotion , and an elevation of the Shiites and Kurds , and they refuse to go quietly .	AGENT
+40	6	5	They know that the American advent implies for them a demotion , and an elevation of the Shiites and Kurds , and they refuse to go quietly .	AGENT
+41	6	10	They know that the American advent implies for them a demotion , and an elevation of the Shiites and Kurds , and they refuse to go quietly .	NONE
+42	23	22	They know that the American advent implies for them a demotion , and an elevation of the Shiites and Kurds , and they refuse to go quietly .	AGENT
+43	3	2	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	AGENT
+44	3	5	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	FORCES
+45	3	8	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	NONE
+46	3	39	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	NONE
+47	18	17	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	AGENT
+48	31	30	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	AGENT
+49	31	33	The Supreme Court announced its ruling today in Hamdan v. Rumsfeld divided along idelogical lines with John Roberts abstaining due to his involvement at the D.C. Circuit level and Anthony Kennedy joining the liberals in a 5 - 3 decision that is 185 pages long .	NONE
+50	1	0	BREYER filed a concurring opinion , in which KENNEDY , SOUTER , and GINSBURG joined .	AGENT
+51	1	4	BREYER filed a concurring opinion , in which KENNEDY , SOUTER , and GINSBURG joined .	AGENT
+52	14	8	BREYER filed a concurring opinion , in which KENNEDY , SOUTER , and GINSBURG joined .	AGENT
+53	1	0	KENNEDY filed an opinion concurring in part , in which SOUTER , GINSBURG , and BREYER joined as to Parts I and II .	AGENT
+54	1	3	KENNEDY filed an opinion concurring in part , in which SOUTER , GINSBURG , and BREYER joined as to Parts I and II .	INSTRUMENT
+55	16	10	KENNEDY filed an opinion concurring in part , in which SOUTER , GINSBURG , and BREYER joined as to Parts I and II .	AGENT
+56	1	0	SCALIA filed a dissenting opinion , in which THOMAS and ALITO joined .	AGENT
+57	1	4	SCALIA filed a dissenting opinion , in which THOMAS and ALITO joined .	AGENT
+58	11	8	SCALIA filed a dissenting opinion , in which THOMAS and ALITO joined .	AGENT
+59	1	0	THOMAS filed a dissenting opinion , in which SCALIA joined , and in which ALITO joined as to all but Parts I , II - C - 1 , and III - B - 2 .	AGENT
+60	1	4	THOMAS filed a dissenting opinion , in which SCALIA joined , and in which ALITO joined as to all but Parts I , II - C - 1 , and III - B - 2 .	INSTRUMENT
+61	9	8	THOMAS filed a dissenting opinion , in which SCALIA joined , and in which ALITO joined as to all but Parts I , II - C - 1 , and III - B - 2 .	AGENT
+62	15	14	THOMAS filed a dissenting opinion , in which SCALIA joined , and in which ALITO joined as to all but Parts I , II - C - 1 , and III - B - 2 .	AGENT
+63	1	0	ALITO filed a dissenting opinion , in which SCALIA and THOMAS joined as to Parts I through III .	AGENT
+64	1	4	ALITO filed a dissenting opinion , in which SCALIA and THOMAS joined as to Parts I through III .	FORCES
+65	1	0	I had to go to the BBC for this report .	AGENT
+66	9	2	At that time , UN Secretary General Kofi Annan demanded steps be taken to end the ethnic violence in Darfur within 48 hours .	NONE
+67	9	8	At that time , UN Secretary General Kofi Annan demanded steps be taken to end the ethnic violence in Darfur within 48 hours .	AGENT
+68	14	17	At that time , UN Secretary General Kofi Annan demanded steps be taken to end the ethnic violence in Darfur within 48 hours .	FORCES
+69	1	0	I assume his actual reason is that he 's worried that Berkshire Hathaway just ca n't grow quickly enough to justify his usual charity policy .	AGENT
+70	16	12	I assume his actual reason is that he 's worried that Berkshire Hathaway just ca n't grow quickly enough to justify his usual charity policy .	AGENT
+71	20	24	I assume his actual reason is that he 's worried that Berkshire Hathaway just ca n't grow quickly enough to justify his usual charity policy .	INSTRUMENT
+72	1	0	He mentions his wife 's death having an effect on him .	AGENT
+73	6	0	Bill over at The Fourth Rail has an excellent essay on how the MSM and the UN , even the leftist countries in Europe , are basically accepting terrorist organizations as legitimate forms of a political party :	AGENT
+74	6	9	Bill over at The Fourth Rail has an excellent essay on how the MSM and the UN , even the leftist countries in Europe , are basically accepting terrorist organizations as legitimate forms of a political party :	PATIENT
+75	27	13	Bill over at The Fourth Rail has an excellent essay on how the MSM and the UN , even the leftist countries in Europe , are basically accepting terrorist organizations as legitimate forms of a political party :	AGENT
+76	27	29	Bill over at The Fourth Rail has an excellent essay on how the MSM and the UN , even the leftist countries in Europe , are basically accepting terrorist organizations as legitimate forms of a political party :	AGENT
+77	7	2	To the north in Lebanon , there is serious debate within Hezbollah about entering the Lebanese political process in light of Syria 's promised withdrawal .	NONE
+78	7	4	To the north in Lebanon , there is serious debate within Hezbollah about entering the Lebanese political process in light of Syria 's promised withdrawal .	NONE
+79	7	9	To the north in Lebanon , there is serious debate within Hezbollah about entering the Lebanese political process in light of Syria 's promised withdrawal .	FORCES
+80	13	17	To the north in Lebanon , there is serious debate within Hezbollah about entering the Lebanese political process in light of Syria 's promised withdrawal .	NONE
+81	6	2	"In a communique , the AMS said that for Iraqis to take part with "" raiding forces "" in the assault on a city , the population of which is Muslim ( such as Fallujah ) would be considered the most mortal of mortal sins ."	MANNER
+82	6	5	"In a communique , the AMS said that for Iraqis to take part with "" raiding forces "" in the assault on a city , the population of which is Muslim ( such as Fallujah ) would be considered the most mortal of mortal sins ."	AGENT
+83	3	2	"The Sunni AMS told Iraqis , "" You sinned when you participated with occupation forces in the assault on Najaf , and beware lest you repeat this same sin in Fallujah ."	AGENT
+84	3	4	"The Sunni AMS told Iraqis , "" You sinned when you participated with occupation forces in the assault on Najaf , and beware lest you repeat this same sin in Fallujah ."	AGENT
+85	8	7	"The Sunni AMS told Iraqis , "" You sinned when you participated with occupation forces in the assault on Najaf , and beware lest you repeat this same sin in Fallujah ."	AGENT
+86	25	24	"The Sunni AMS told Iraqis , "" You sinned when you participated with occupation forces in the assault on Najaf , and beware lest you repeat this same sin in Fallujah ."	AGENT
+87	25	28	"The Sunni AMS told Iraqis , "" You sinned when you participated with occupation forces in the assault on Najaf , and beware lest you repeat this same sin in Fallujah ."	FORCES
+88	5	4	The radical Shiite Sadr movement issued a statement forbidding the participation of Iraqi troops in the attack on Fallujah , as well .	AGENT
+89	5	7	The radical Shiite Sadr movement issued a statement forbidding the participation of Iraqi troops in the attack on Fallujah , as well .	INSTRUMENT
+90	8	10	The radical Shiite Sadr movement issued a statement forbidding the participation of Iraqi troops in the attack on Fallujah , as well .	PATIENT
+91	2	1	"The statement said , "" We direct an appeal at the men in the Iraqi forces , whether national guards or others , the majority of whom are Muslim , calling upon them to refrain for commiting this enormous sin under the banner of forces that do not respect our religion or any principles of basic humanity , and we ask them to view this war as illegal . """	FORCES
+92	36	39	"The statement said , "" We direct an appeal at the men in the Iraqi forces , whether national guards or others , the majority of whom are Muslim , calling upon them to refrain for commiting this enormous sin under the banner of forces that do not respect our religion or any principles of basic humanity , and we ask them to view this war as illegal . """	FORCES
+93	48	44	"The statement said , "" We direct an appeal at the men in the Iraqi forces , whether national guards or others , the majority of whom are Muslim , calling upon them to refrain for commiting this enormous sin under the banner of forces that do not respect our religion or any principles of basic humanity , and we ask them to view this war as illegal . """	AGENT
+94	48	50	"The statement said , "" We direct an appeal at the men in the Iraqi forces , whether national guards or others , the majority of whom are Muslim , calling upon them to refrain for commiting this enormous sin under the banner of forces that do not respect our religion or any principles of basic humanity , and we ask them to view this war as illegal . """	NONE
+95	63	65	"The statement said , "" We direct an appeal at the men in the Iraqi forces , whether national guards or others , the majority of whom are Muslim , calling upon them to refrain for commiting this enormous sin under the banner of forces that do not respect our religion or any principles of basic humanity , and we ask them to view this war as illegal . """	NONE
+96	1	7	"It called a "" ploy "" the assertaion that the attack was merely on foreign fighters at Fallujah ."	FORCES
+97	2	1	President Bush pinched a few nerves yesterday with his choice of words :	AGENT
+98	2	5	President Bush pinched a few nerves yesterday with his choice of words :	PATIENT
+99	2	9	President Bush pinched a few nerves yesterday with his choice of words :	MANNER
+100	2	1	""" We believe this is an ill - advised term and we believe that it is counterproductive to associate Islam or Muslims with fascism , "" said Nihad Awad , executive director of the Council on American - Islamic Relations advocacy group ."	AGENT
+101	12	11	""" We believe this is an ill - advised term and we believe that it is counterproductive to associate Islam or Muslims with fascism , "" said Nihad Awad , executive director of the Council on American - Islamic Relations advocacy group ."	AGENT
+102	18	19	""" We believe this is an ill - advised term and we believe that it is counterproductive to associate Islam or Muslims with fascism , "" said Nihad Awad , executive director of the Council on American - Islamic Relations advocacy group ."	NONE
+103	26	28	""" We believe this is an ill - advised term and we believe that it is counterproductive to associate Islam or Muslims with fascism , "" said Nihad Awad , executive director of the Council on American - Islamic Relations advocacy group ."	AGENT
+104	9	4	Abu Musab al - Zarqawi and his group are said to have been bitter rivals of al - Qaeda during the Afghan resistance days .	NONE
+105	8	1	One witness at the Moutasaddiq trial in Germany alleged that Zarqawi had not allowed Monotheism and Holy War to share resources with al - Qaeda in the early zeroes of the 21st century .	AGENT
+106	13	10	One witness at the Moutasaddiq trial in Germany alleged that Zarqawi had not allowed Monotheism and Holy War to share resources with al - Qaeda in the early zeroes of the 21st century .	AGENT
+107	13	14	One witness at the Moutasaddiq trial in Germany alleged that Zarqawi had not allowed Monotheism and Holy War to share resources with al - Qaeda in the early zeroes of the 21st century .	INSTRUMENT
+108	19	20	One witness at the Moutasaddiq trial in Germany alleged that Zarqawi had not allowed Monotheism and Holy War to share resources with al - Qaeda in the early zeroes of the 21st century .	PATIENT
+109	4	1	In 1998 they were joined by Egyptians from the al - Jihad al - Islami group of Ayman al - Zawahiri ( many of these were from Upper Egypt , especially Asyut and environs ) .	NONE
+110	4	2	In 1998 they were joined by Egyptians from the al - Jihad al - Islami group of Ayman al - Zawahiri ( many of these were from Upper Egypt , especially Asyut and environs ) .	AGENT
+111	4	6	In 1998 they were joined by Egyptians from the al - Jihad al - Islami group of Ayman al - Zawahiri ( many of these were from Upper Egypt , especially Asyut and environs ) .	NONE
+112	3	2	Another worrisome sign is that local Iraqi Sunni fundamentalists opposed to the US presence in Iraq have begun joining Monotheism and Holy War , and wearing its distinctive orange and black insignia .	FORCES
+113	17	8	Another worrisome sign is that local Iraqi Sunni fundamentalists opposed to the US presence in Iraq have begun joining Monotheism and Holy War , and wearing its distinctive orange and black insignia .	AGENT
+114	18	19	Another worrisome sign is that local Iraqi Sunni fundamentalists opposed to the US presence in Iraq have begun joining Monotheism and Holy War , and wearing its distinctive orange and black insignia .	AGENT
+115	25	31	Another worrisome sign is that local Iraqi Sunni fundamentalists opposed to the US presence in Iraq have begun joining Monotheism and Holy War , and wearing its distinctive orange and black insignia .	AGENT
+116	1	3	It notes 10 points at which the US made key mistakes that might have stopped Bin Laden 's plot .	NONE
+117	1	0	Wolfowitz lied to him and said that there was a 10 to 50 % chance that Iraq was behind them .	AGENT
+118	1	3	Wolfowitz lied to him and said that there was a 10 to 50 % chance that Iraq was behind them .	MANNER
+119	2	1	Imperial Hubris makes the case that lots of people in the CIA and counter-terrorism divisions elsewhere in the US government knew all about Bin Laden and the threat he posed .	FORCES
+120	2	4	Imperial Hubris makes the case that lots of people in the CIA and counter-terrorism divisions elsewhere in the US government knew all about Bin Laden and the threat he posed .	INSTRUMENT
+121	29	28	Imperial Hubris makes the case that lots of people in the CIA and counter-terrorism divisions elsewhere in the US government knew all about Bin Laden and the threat he posed .	AGENT
+122	5	0	They were from all accounts marginalized and not listened to .	AGENT
+123	5	4	They were from all accounts marginalized and not listened to .	NONE
+124	1	0	Bush demoted Dick Clarke , among the most vocal and focused of the al - Qaeda experts , from his cabinet .	AGENT
+125	1	3	Bush demoted Dick Clarke , among the most vocal and focused of the al - Qaeda experts , from his cabinet .	AGENT
+126	1	20	Bush demoted Dick Clarke , among the most vocal and focused of the al - Qaeda experts , from his cabinet .	NONE
+127	1	0	I presume you need the Pakistan base for rescue operations in case anything went wrong .	AGENT
+128	9	2	But in fall of 1999 , Gen. Pervez Musharraf made a coup against Nawaz Sharif .	NONE
+129	9	8	But in fall of 1999 , Gen. Pervez Musharraf made a coup against Nawaz Sharif .	AGENT
+130	9	11	But in fall of 1999 , Gen. Pervez Musharraf made a coup against Nawaz Sharif .	INSTRUMENT
+131	1	0	Musharraf told Clinton he could n't use Pakistani soil or air space to send the team in against Bin Laden .	AGENT
+132	1	2	Musharraf told Clinton he could n't use Pakistani soil or air space to send the team in against Bin Laden .	PATIENT
+133	1	0	Clinton tried , and tried hard .	AGENT
+134	1	0	"that is how i want you to refer to me as "" the king """	NONE
+135	1	13	"that is how i want you to refer to me as "" the king """	NONE
+136	1	0	you know , whatever .	AGENT
+137	1	0	i used to have one .	AGENT
+138	1	0	colorado beat texas a&m .	AGENT
+139	1	3	colorado beat texas a&m .	AGENT
+140	1	0	i know you remember the bet .	AGENT
+141	3	2	i know you remember the bet .	AGENT
+142	3	5	i know you remember the bet .	NONE
+143	1	0	i got her number though .	AGENT
+144	1	3	i got her number though .	INSTRUMENT
+145	1	0	i want to hook up with that girl paige in the brown leather jacket .	AGENT
+146	1	0	i had a blast that night .	AGENT
+147	1	3	i had a blast that night .	PATIENT
+148	1	0	I heard that more may be going up for sale in the next month or do .	AGENT
+149	1	0	Someone told me that Chase is planning a shitload of layoffs .	AGENT
+150	1	2	Someone told me that Chase is planning a shitload of layoffs .	AGENT
+151	6	4	Someone told me that Chase is planning a shitload of layoffs .	AGENT
+152	6	8	Someone told me that Chase is planning a shitload of layoffs .	FORCES
+153	2	1	These guys tried the Ken Lay route .	AGENT
+154	2	6	These guys tried the Ken Lay route .	INSTRUMENT
+155	1	0	I know you must be going nuts with all the events , so I have not called .	AGENT
+156	1	4	There are only two counterparties at this time who have overdue margin :	NONE
+157	1	7	There are only two counterparties at this time who have overdue margin :	NONE
+158	3	2	Well , he launched today .	AGENT
+159	1	0	I think this is actually a good thing -- makes our proposal look like a much more preferable alternative by comparison , makes our support in the process more important , and sets Harvey up as the Ralph Nader equivalent in the election to fix California 's broken system --- a potential spoiler .	AGENT
+160	32	33	I think this is actually a good thing -- makes our proposal look like a much more preferable alternative by comparison , makes our support in the process more important , and sets Harvey up as the Ralph Nader equivalent in the election to fix California 's broken system --- a potential spoiler .	NONE
+161	44	48	I think this is actually a good thing -- makes our proposal look like a much more preferable alternative by comparison , makes our support in the process more important , and sets Harvey up as the Ralph Nader equivalent in the election to fix California 's broken system --- a potential spoiler .	FORCES
+162	1	0	i need to now get a job at house of pies b/c that is the only way to pay the bills .	PATIENT
+163	18	20	i need to now get a job at house of pies b/c that is the only way to pay the bills .	PATIENT
+164	1	0	i have stronger will than you think .	AGENT
+165	1	3	i have stronger will than you think .	FORCES
+166	3	1	In addition , is there someone who could consider the correlation between US CPI and the $ / euro exchange rate .	MANNER
+167	3	5	In addition , is there someone who could consider the correlation between US CPI and the $ / euro exchange rate .	AGENT
+168	8	5	In addition , is there someone who could consider the correlation between US CPI and the $ / euro exchange rate .	AGENT
+169	8	10	In addition , is there someone who could consider the correlation between US CPI and the $ / euro exchange rate .	FORCES
+170	1	0	I met you at the Risk conference last week in Houston .	AGENT
+171	1	2	I met you at the Risk conference last week in Houston .	AGENT
+172	1	6	I met you at the Risk conference last week in Houston .	NONE
+173	1	10	I met you at the Risk conference last week in Houston .	NONE
+174	1	0	I agree with Steve 's position stated in his separate e'mail .	AGENT
+175	1	5	I agree with Steve 's position stated in his separate e'mail .	MANNER
+176	1	0	We pointed out to the PX that there was excess credit .	AGENT
+177	1	5	We pointed out to the PX that there was excess credit .	NONE
+178	1	0	I spoke with Mike Collins [ 203-719-8385 ( phone ) and 203-719-7031 ( fax ) ] who conrfirmed to me that the cap included the remaining 2.5 + million remaining shares .	AGENT
+179	1	4	I spoke with Mike Collins [ 203-719-8385 ( phone ) and 203-719-7031 ( fax ) ] who conrfirmed to me that the cap included the remaining 2.5 + million remaining shares .	MANNER
+180	17	4	I spoke with Mike Collins [ 203-719-8385 ( phone ) and 203-719-7031 ( fax ) ] who conrfirmed to me that the cap included the remaining 2.5 + million remaining shares .	AGENT
+181	23	22	I spoke with Mike Collins [ 203-719-8385 ( phone ) and 203-719-7031 ( fax ) ] who conrfirmed to me that the cap included the remaining 2.5 + million remaining shares .	INSTRUMENT
+182	23	30	I spoke with Mike Collins [ 203-719-8385 ( phone ) and 203-719-7031 ( fax ) ] who conrfirmed to me that the cap included the remaining 2.5 + million remaining shares .	INSTRUMENT
+183	4	1	My assistant Joanne Rozycki has cell , car numbers to reach me .	AGENT
+184	4	8	My assistant Joanne Rozycki has cell , car numbers to reach me .	FORCES
+185	10	11	My assistant Joanne Rozycki has cell , car numbers to reach me .	AGENT
+186	2	1	"The sample includes our "" caveat "" , so it should be fine ."	INSTRUMENT
+187	2	5	"The sample includes our "" caveat "" , so it should be fine ."	INSTRUMENT
+188	1	0	I understand you may not have credit approval yet so perhaps we can leave the appropriate sections blank in the meantime .	AGENT
+189	1	0	I understand the imminent cold weather is making things crazy , so now may not be the best time to be in your way .	AGENT
+190	1	0	I think it will help me very much in my role .	AGENT
+191	1	0	I show that we also had 20.000 at LS HPL for the 13th .	AGENT
+192	1	0	I need a new lawnmower , so I 'll try to bump it up a little more .	AGENT
+193	1	4	I need a new lawnmower , so I 'll try to bump it up a little more .	NONE
+194	11	12	I need a new lawnmower , so I 'll try to bump it up a little more .	PATIENT
+195	3	0	WE AT HOME LOVE IT AT $ 80 +++	AGENT
+196	3	4	WE AT HOME LOVE IT AT $ 80 +++	FORCES
+197	3	6	WE AT HOME LOVE IT AT $ 80 +++	NONE
+198	1	0	I hope you do n't mind , but I 've taken liberty to turn them into a web photo album at http://24.27.98.30/pictures/08-05_Garrett_Gayle_Bday .	AGENT
+199	5	2	I hope you do n't mind , but I 've taken liberty to turn them into a web photo album at http://24.27.98.30/pictures/08-05_Garrett_Gayle_Bday .	AGENT
+200	13	14	I hope you do n't mind , but I 've taken liberty to turn them into a web photo album at http://24.27.98.30/pictures/08-05_Garrett_Gayle_Bday .	FORCES
+201	2	1	My weekends seem to be taken up with condo matters , house hunting .	NONE
+202	1	0	I want to go to the cafeteria for vegetables .	AGENT
+203	2	1	My weekends seem to be taken up with condo matters , house hunting .	INSTRUMENT
+204	1	0	I want to go to the cafeteria for vegetables .	AGENT
+205	2	1	The Dow topped out in February of 1966 at 995 .	FORCES
+206	2	5	The Dow topped out in February of 1966 at 995 .	NONE
+207	2	9	The Dow topped out in February of 1966 at 995 .	NONE
+208	1	0	I talked with Gary Wilson , and he confirmed that the revised values are correct .	AGENT
+209	1	4	I talked with Gary Wilson , and he confirmed that the revised values are correct .	MANNER
+210	8	7	I talked with Gary Wilson , and he confirmed that the revised values are correct .	AGENT
+211	0	3	Attached is a spreadsheet that contains the values .	NONE
+212	5	3	Attached is a spreadsheet that contains the values .	PATIENT
+213	5	7	Attached is a spreadsheet that contains the values .	INSTRUMENT
+214	6	1	The correction to the working gas includes TWO corrections .	NONE
+215	6	8	The correction to the working gas includes TWO corrections .	FORCES
+216	7	1	The results of the February 26th test reduces the working gas by 398,487 MMBTU .	INSTRUMENT
+217	7	10	The results of the February 26th test reduces the working gas by 398,487 MMBTU .	PATIENT
+218	7	13	The results of the February 26th test reduces the working gas by 398,487 MMBTU .	MANNER
+219	4	1	"In addition , there is a reduction of 22,101 MMBTU which is the difference between the SCADA values ( Best Available ) that Anita showed on the February 29th Storage Sheet and the "" official "" February 29th values that Gary Wilson received from MIPS ."	NONE
+220	4	6	"In addition , there is a reduction of 22,101 MMBTU which is the difference between the SCADA values ( Best Available ) that Anita showed on the February 29th Storage Sheet and the "" official "" February 29th values that Gary Wilson received from MIPS ."	NONE
+221	24	17	"In addition , there is a reduction of 22,101 MMBTU which is the difference between the SCADA values ( Best Available ) that Anita showed on the February 29th Storage Sheet and the "" official "" February 29th values that Gary Wilson received from MIPS ."	FORCES
+222	24	23	"In addition , there is a reduction of 22,101 MMBTU which is the difference between the SCADA values ( Best Available ) that Anita showed on the February 29th Storage Sheet and the "" official "" February 29th values that Gary Wilson received from MIPS ."	AGENT
+223	1	0	i tried to say i was n't that drunk but z was n't having any of that conversation .	AGENT
+224	1	0	she told me that after friday and saturday she felt i was slowly regressing .	AGENT
+225	1	2	she told me that after friday and saturday she felt i was slowly regressing .	AGENT
+226	13	10	she told me that after friday and saturday she felt i was slowly regressing .	AGENT
+227	1	0	she said that was ok .	AGENT
+228	14	13	Did you get in as much trouble as I did this weekend - Lori seems to think I need to get help - I told her it 's normal to drink all day at a bar , then go to dinner where you do n't know half the people there and proceed to get extremely fucked up	AGENT
+229	1	0	They offer an exceptional compensation package including a healthy salary , comprehensive benefits program , and ample room for associates to grow within the firm .	AGENT
+230	1	5	They offer an exceptional compensation package including a healthy salary , comprehensive benefits program , and ample room for associates to grow within the firm .	NONE
+231	21	19	They offer an exceptional compensation package including a healthy salary , comprehensive benefits program , and ample room for associates to grow within the firm .	AGENT
+232	1	0	I drafted the Into TVA Option as a series of calls tied to the MOPA delivery term and quantity - not sure if this anything close to what you all had in mind .	AGENT
+233	1	5	I drafted the Into TVA Option as a series of calls tied to the MOPA delivery term and quantity - not sure if this anything close to what you all had in mind .	INSTRUMENT
+234	1	8	I drafted the Into TVA Option as a series of calls tied to the MOPA delivery term and quantity - not sure if this anything close to what you all had in mind .	MANNER
+235	0	5	"Attached are clean and blacklined drafts of the Enron guaranties to be made in support of EPMI 's obligations under the Indian Mesa II Renewable Energy Purchase Agreement ( "" PPA "" ) and Green Premium Sharing Agreement ( "" GSPA "" ) .?"	NONE
+236	6	1	The guaranty for the PPA is blacklined against the Enron EPC Contract guaranty in favor of the banks which was granted in connection with our Cabazon Wind Power Project ( the project most recently financed by EWC ) and the GPSA guaranty is blacklined against the PPA guaranty .	FORCES
+237	6	12	The guaranty for the PPA is blacklined against the Enron EPC Contract guaranty in favor of the banks which was granted in connection with our Cabazon Wind Power Project ( the project most recently financed by EWC ) and the GPSA guaranty is blacklined against the PPA guaranty .	NONE
+238	6	14	The guaranty for the PPA is blacklined against the Enron EPC Contract guaranty in favor of the banks which was granted in connection with our Cabazon Wind Power Project ( the project most recently financed by EWC ) and the GPSA guaranty is blacklined against the PPA guaranty .	NONE
+239	20	18	The guaranty for the PPA is blacklined against the Enron EPC Contract guaranty in favor of the banks which was granted in connection with our Cabazon Wind Power Project ( the project most recently financed by EWC ) and the GPSA guaranty is blacklined against the PPA guaranty .	INSTRUMENT
+240	43	41	The guaranty for the PPA is blacklined against the Enron EPC Contract guaranty in favor of the banks which was granted in connection with our Cabazon Wind Power Project ( the project most recently financed by EWC ) and the GPSA guaranty is blacklined against the PPA guaranty .	NONE
+241	43	47	The guaranty for the PPA is blacklined against the Enron EPC Contract guaranty in favor of the banks which was granted in connection with our Cabazon Wind Power Project ( the project most recently financed by EWC ) and the GPSA guaranty is blacklined against the PPA guaranty .	MANNER
+242	1	0	We plan to use the same basic form for the Enron guaranty that will be made in favor of EPMI with respect to the seller 's obligations under the PPA .	AGENT
+243	1	0	I enjoyed working with you and wish you the best of everything .	AGENT
+244	6	7	I enjoyed working with you and wish you the best of everything .	AGENT
+245	6	9	I enjoyed working with you and wish you the best of everything .	FORCES
+246	1	0	Events change everyday .	PATIENT
+247	4	3	This morning 's paper reports that a rate increase of 40 % may be imposed by the CDWR as early as today and the new bond issue amount is purported to be 16 billion ( rather than the 10 initially discussed )	AGENT
+248	14	8	This morning 's paper reports that a rate increase of 40 % may be imposed by the CDWR as early as today and the new bond issue amount is purported to be 16 billion ( rather than the 10 initially discussed )	INSTRUMENT
+249	29	27	This morning 's paper reports that a rate increase of 40 % may be imposed by the CDWR as early as today and the new bond issue amount is purported to be 16 billion ( rather than the 10 initially discussed )	PATIENT
+250	1	0	I faxed comments to you on dash .	AGENT
+251	1	2	I faxed comments to you on dash .	FORCES
+252	1	4	I faxed comments to you on dash .	NONE
+253	1	6	I faxed comments to you on dash .	NONE
+254	1	0	He looked like a great guy for your group .	NONE
+255	1	5	He looked like a great guy for your group .	NONE
+256	3	5	Your suggestion to introduce the concept discussed with one of the Lays is welcomed .	INSTRUMENT
+257	13	1	Your suggestion to introduce the concept discussed with one of the Lays is welcomed .	NONE
+258	1	0	I hope that this would mean that you would remain involved at some level .	AGENT
+259	5	3	I hope that this would mean that you would remain involved at some level .	NONE
+260	9	7	I hope that this would mean that you would remain involved at some level .	AGENT
+261	1	0	I thought that since Chonawee has an optimization background , he would be good to have him go to dinner with Dr. Lasdon on Thrusday as well .	AGENT
+262	1	0	I wish I could make it .	AGENT
+263	1	2	There are deals in the Aruba book so I 'm not sure why you are n't picking those up .	INSTRUMENT
+264	1	6	There are deals in the Aruba book so I 'm not sure why you are n't picking those up .	NONE
+265	16	13	There are deals in the Aruba book so I 'm not sure why you are n't picking those up .	AGENT
+266	16	17	There are deals in the Aruba book so I 'm not sure why you are n't picking those up .	INSTRUMENT
+267	2	1	The positions needed to be divided to reflect BCF 's .	INSTRUMENT
+268	7	8	The positions needed to be divided to reflect BCF 's .	FORCES
+269	0	5	Attached are all live financial deals by risk type .	INSTRUMENT
+270	11	8	An orphaned , two - month old African elephant named Olly received an extremely uplifting Christmas present this year : an airplane ride just for him , courtesy of the International Fund for Animal Welfare and their friends ' The Bateleurs ' .	PATIENT
+271	11	16	An orphaned , two - month old African elephant named Olly received an extremely uplifting Christmas present this year : an airplane ride just for him , courtesy of the International Fund for Animal Welfare and their friends ' The Bateleurs ' .	FORCES
+272	2	1	The story had brillant battle scenes , lovable heroes and villians , a compelling story line , and it left me dying for the next part of the series :) go to taleofterra.com to learn more aboout it	FORCES
+273	2	5	The story had brillant battle scenes , lovable heroes and villians , a compelling story line , and it left me dying for the next part of the series :) go to taleofterra.com to learn more aboout it	NONE
+274	34	35	The story had brillant battle scenes , lovable heroes and villians , a compelling story line , and it left me dying for the next part of the series :) go to taleofterra.com to learn more aboout it	FORCES
+275	1	0	WE HAVE A DATE FOR THE RELEASE OF RAGNAROK ONLINE 2 ( beta anyway ) September 16 - 18 , this was announced by Gravity CEO Kim Jung - Ryool on either 16th or 17th of july and as i do n't want to take someone 's credit's i got it here ^^ GameSpot	AGENT
+276	1	3	WE HAVE A DATE FOR THE RELEASE OF RAGNAROK ONLINE 2 ( beta anyway ) September 16 - 18 , this was announced by Gravity CEO Kim Jung - Ryool on either 16th or 17th of july and as i do n't want to take someone 's credit's i got it here ^^ GameSpot	INSTRUMENT
+277	22	20	WE HAVE A DATE FOR THE RELEASE OF RAGNAROK ONLINE 2 ( beta anyway ) September 16 - 18 , this was announced by Gravity CEO Kim Jung - Ryool on either 16th or 17th of july and as i do n't want to take someone 's credit's i got it here ^^ GameSpot	FORCES
+278	4	3	Key Delhi blast suspect arrested	AGENT
+279	6	0	Police in the Indian capital Delhi say they have arrested the suspected co-ordinator and financier of last month 's deadly bomb blasts in the city .	AGENT
+280	9	7	Police in the Indian capital Delhi say they have arrested the suspected co-ordinator and financier of last month 's deadly bomb blasts in the city .	AGENT
+281	9	12	Police in the Indian capital Delhi say they have arrested the suspected co-ordinator and financier of last month 's deadly bomb blasts in the city .	PATIENT
+282	6	5	Delhi police chief K K Paul named the man as Tariq Ahmed Dar , and said police were hunting for four accomplices .	AGENT
+283	6	8	Delhi police chief K K Paul named the man as Tariq Ahmed Dar , and said police were hunting for four accomplices .	PATIENT
+284	6	12	Delhi police chief K K Paul named the man as Tariq Ahmed Dar , and said police were hunting for four accomplices .	NONE
+285	18	16	Delhi police chief K K Paul named the man as Tariq Ahmed Dar , and said police were hunting for four accomplices .	AGENT
+286	1	0	He said Mr Dar , 33 , was arrested in Indian - administered Kashmir and belonged to the outlawed Lashkar - e - Toiba militant group .	AGENT
+287	8	3	He said Mr Dar , 33 , was arrested in Indian - administered Kashmir and belonged to the outlawed Lashkar - e - Toiba militant group .	NONE
+288	1	0	I like the way Otto Jespersen ( in ' Language : Its Nature , Development and Origin ' ) aptly summarised the nature of language changes by comparing it with one of the theories of the Manchester School of Economics :	AGENT
+289	1	3	I like the way Otto Jespersen ( in ' Language : Its Nature , Development and Origin ' ) aptly summarised the nature of language changes by comparing it with one of the theories of the Manchester School of Economics :	FORCES
+290	20	5	I like the way Otto Jespersen ( in ' Language : Its Nature , Development and Origin ' ) aptly summarised the nature of language changes by comparing it with one of the theories of the Manchester School of Economics :	AGENT
+291	20	22	I like the way Otto Jespersen ( in ' Language : Its Nature , Development and Origin ' ) aptly summarised the nature of language changes by comparing it with one of the theories of the Manchester School of Economics :	INSTRUMENT
+292	27	28	I like the way Otto Jespersen ( in ' Language : Its Nature , Development and Origin ' ) aptly summarised the nature of language changes by comparing it with one of the theories of the Manchester School of Economics :	FORCES
+293	9	2	And a portion of each package or memorial purchased goes to a charity on their database .	INSTRUMENT
+294	9	12	And a portion of each package or memorial purchased goes to a charity on their database .	NONE
+295	3	5	""" ... there is no companion quite so devoted , so communicative , so loving and so mesmerizing as a rat . """	NONE
+296	2	1	Inhibitory Systems Control the Pattern of Activity in the Cortex	FORCES
+297	2	4	Inhibitory Systems Control the Pattern of Activity in the Cortex	NONE
+298	2	1	"The findings demonstrate the inhibitory network is central to controlling not only the amplitude , extent and duration of activation of recurrent excitatory cortical networks , but also the precise timing of action potentials , and , thus , network synchronization ... """	FORCES
+299	9	13	"The findings demonstrate the inhibitory network is central to controlling not only the amplitude , extent and duration of activation of recurrent excitatory cortical networks , but also the precise timing of action potentials , and , thus , network synchronization ... """	INSTRUMENT
+300	2	1	* Worldwatch Projects Catastrophe Will Be Most Costly Weather - Related Disaster in History *	AGENT
+301	1	0	n3td3v saw this story on BBC News Online and thought you should see it .	AGENT
+302	1	3	n3td3v saw this story on BBC News Online and thought you should see it .	INSTRUMENT
+303	1	7	n3td3v saw this story on BBC News Online and thought you should see it .	MANNER
+304	2	1	** Google defies US over search data **	AGENT
+305	2	3	** Google defies US over search data **	AGENT
+306	2	6	** Google defies US over search data **	NONE
+307	5	4	U.S. President George W. Bush shakes hands with Chinese President Hu Jintao in a bilateral meeting in Santiago .	AGENT
+308	5	6	U.S. President George W. Bush shakes hands with Chinese President Hu Jintao in a bilateral meeting in Santiago .	FORCES
+309	5	11	U.S. President George W. Bush shakes hands with Chinese President Hu Jintao in a bilateral meeting in Santiago .	MANNER
+310	5	15	U.S. President George W. Bush shakes hands with Chinese President Hu Jintao in a bilateral meeting in Santiago .	NONE
+311	1	0	I started this page to help with my boredom .	AGENT
+312	1	3	I started this page to help with my boredom .	PATIENT
+313	1	0	I started collecting animations & jokes just to help with my boredom and depression .	AGENT
+314	2	3	I started collecting animations & jokes just to help with my boredom and depression .	INSTRUMENT
+315	1	0	I enjoyed the animations and wanted to share them with my friends .	AGENT
+316	1	3	I enjoyed the animations and wanted to share them with my friends .	FORCES
+317	7	8	I enjoyed the animations and wanted to share them with my friends .	FORCES
+318	1	0	I started with 21 email addresses .	AGENT
+319	1	5	I started with 21 email addresses .	MANNER
+320	1	0	People love to buy these cute cuddly little animals for gifts and collectables .	AGENT
+321	3	8	People love to buy these cute cuddly little animals for gifts and collectables .	INSTRUMENT
+322	1	0	We have a Full Color Catalog and Wholesale Price List ready to mail to you today !	AGENT
+323	1	5	We have a Full Color Catalog and Wholesale Price List ready to mail to you today !	INSTRUMENT
+324	1	0	We accecpt : Visa , MasterCard , Amex , Dinner s Club / Carte Blanche , & Personal Checks / Money Orders .	AGENT
+325	1	3	We accecpt : Visa , MasterCard , Amex , Dinner s Club / Carte Blanche , & Personal Checks / Money Orders .	FORCES
+326	2	0	He is regarded as one of the leading Avant - Garde artist of modern calligraphy .	AGENT
+327	2	4	He is regarded as one of the leading Avant - Garde artist of modern calligraphy .	MANNER
+328	3	1	His artworks were selected and exhibited in British Museum in 2002 .	INSTRUMENT
+329	3	8	His artworks were selected and exhibited in British Museum in 2002 .	NONE
+330	3	10	His artworks were selected and exhibited in British Museum in 2002 .	NONE
+331	13	16	""" Wei has given some virtuoso performances with brush and ink , often incorporating several different techniques into a single work , "" said Gordon S. Barrass , curator of the exhibition ."	INSTRUMENT
+332	23	26	""" Wei has given some virtuoso performances with brush and ink , often incorporating several different techniques into a single work , "" said Gordon S. Barrass , curator of the exhibition ."	AGENT
+333	12	2	"In the world of "" Wei 's magic cubes , "" all seem to be ingeniously planned and tricky ."	NONE
+334	12	11	"In the world of "" Wei 's magic cubes , "" all seem to be ingeniously planned and tricky ."	AGENT
+335	13	2	Wiki Media Foundation , the group behind the Wikipedia online encyclopedia project , said Friday that search giant Google has volunteered to host some of its content on company servers .	AGENT
+336	20	18	Wiki Media Foundation , the group behind the Wikipedia online encyclopedia project , said Friday that search giant Google has volunteered to host some of its content on company servers .	AGENT
+337	22	23	Wiki Media Foundation , the group behind the Wikipedia online encyclopedia project , said Friday that search giant Google has volunteered to host some of its content on company servers .	PATIENT
+338	2	1	A girl raises her hand .	AGENT
+339	2	4	A girl raises her hand .	INSTRUMENT
+340	7	8	""" I 'm afraid not , "" explains Winston , "" that is what we would call a GREAT LOSS . """	AGENT
+341	12	11	""" I 'm afraid not , "" explains Winston , "" that is what we would call a GREAT LOSS . """	FORCES
+342	6	3	"In a timid voice , he says : "" If an airplane carrying Winston Peters was blown up by a bomb , THAT would be a tragedy "" ."	MANNER
+343	6	5	"In a timid voice , he says : "" If an airplane carrying Winston Peters was blown up by a bomb , THAT would be a tragedy "" ."	AGENT
+344	12	14	"In a timid voice , he says : "" If an airplane carrying Winston Peters was blown up by a bomb , THAT would be a tragedy "" ."	AGENT
+345	16	11	"In a timid voice , he says : "" If an airplane carrying Winston Peters was blown up by a bomb , THAT would be a tragedy "" ."	PATIENT
+346	5	4	""" Wonderful ! "" Winston beams ."	AGENT
+347	6	5	""" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com ."	FORCES
+348	6	9	""" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com ."	PATIENT
+349	12	9	""" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com ."	PATIENT
+350	12	14	""" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com ."	PATIENT
+351	30	29	""" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com ."	AGENT
+352	30	31	""" Our new lunar transportation system utilizes a unique architecture that will establish the equivalent of a two - way highway between the Earth and the Moon , "" Kistler told SPACE.com ."	AGENT
+353	3	2	""" Our plans include raising private capital to develop , build , flight test , and operate this Earth - Moon highway for the benefit of the country and the benefit of our investors . """	PATIENT
+354	4	6	""" Our plans include raising private capital to develop , build , flight test , and operate this Earth - Moon highway for the benefit of the country and the benefit of our investors . """	PATIENT
+355	8	21	""" Our plans include raising private capital to develop , build , flight test , and operate this Earth - Moon highway for the benefit of the country and the benefit of our investors . """	PATIENT
+356	1	0	They want to use LTS to tie into NASA 's vision for Space Exploration , and seem pleased that the White House is moving in that direction .	AGENT
+357	23	21	They want to use LTS to tie into NASA 's vision for Space Exploration , and seem pleased that the White House is moving in that direction .	AGENT
+358	16	8	""" We are so excited that the White House and the recent new government space policy underscores the need to involve the private sector in assisting NASA develop its plans for the new Vision for Space Exploration , "" said Walter Kistler , LTS co-founder and Chairman ."	AGENT
+359	16	18	""" We are so excited that the White House and the recent new government space policy underscores the need to involve the private sector in assisting NASA develop its plans for the new Vision for Space Exploration , "" said Walter Kistler , LTS co-founder and Chairman ."	INSTRUMENT
+360	20	23	""" We are so excited that the White House and the recent new government space policy underscores the need to involve the private sector in assisting NASA develop its plans for the new Vision for Space Exploration , "" said Walter Kistler , LTS co-founder and Chairman ."	AGENT
+361	27	26	""" We are so excited that the White House and the recent new government space policy underscores the need to involve the private sector in assisting NASA develop its plans for the new Vision for Space Exploration , "" said Walter Kistler , LTS co-founder and Chairman ."	AGENT
+362	27	29	""" We are so excited that the White House and the recent new government space policy underscores the need to involve the private sector in assisting NASA develop its plans for the new Vision for Space Exploration , "" said Walter Kistler , LTS co-founder and Chairman ."	PATIENT
+363	39	41	""" We are so excited that the White House and the recent new government space policy underscores the need to involve the private sector in assisting NASA develop its plans for the new Vision for Space Exploration , "" said Walter Kistler , LTS co-founder and Chairman ."	AGENT
+364	3	1	""" NASA will initiate development of a Crew Launch Vehicle derived from space shuttle solid rocket boosters with a new upper stage for human spaceflight , "" said the letter , signed by NASA Administrator Mike Griffin and the Pentagon 's top space official , ex-astronaut Ron Sega ..."	AGENT
+365	3	4	""" NASA will initiate development of a Crew Launch Vehicle derived from space shuttle solid rocket boosters with a new upper stage for human spaceflight , "" said the letter , signed by NASA Administrator Mike Griffin and the Pentagon 's top space official , ex-astronaut Ron Sega ..."	PATIENT
+366	27	29	""" NASA will initiate development of a Crew Launch Vehicle derived from space shuttle solid rocket boosters with a new upper stage for human spaceflight , "" said the letter , signed by NASA Administrator Mike Griffin and the Pentagon 's top space official , ex-astronaut Ron Sega ..."	FORCES
+367	3	1	""" NASA then plans to develop a new 100 - metric - ton - class launch vehicle derived from existing capabilities with the space shuttle external tanks and solid rocket boosters for future missions to the moon , "" the letter said ."	AGENT
+368	5	16	""" NASA then plans to develop a new 100 - metric - ton - class launch vehicle derived from existing capabilities with the space shuttle external tanks and solid rocket boosters for future missions to the moon , "" the letter said ."	PATIENT
+369	41	40	""" NASA then plans to develop a new 100 - metric - ton - class launch vehicle derived from existing capabilities with the space shuttle external tanks and solid rocket boosters for future missions to the moon , "" the letter said ."	FORCES
+370	1	0	I had a rose named after me and I was very flattered .	AGENT
+371	1	3	I had a rose named after me and I was very flattered .	FORCES
+372	2	1	Santa Claus has the right idea .	AGENT
+373	2	5	Santa Claus has the right idea .	INSTRUMENT
+374	2	0	I was married by a judge .	AGENT
+375	2	5	I was married by a judge .	MANNER
+376	2	1	My wife has a slight impediment in her speech .	PATIENT
+377	2	5	My wife has a slight impediment in her speech .	FORCES
+378	3	2	Only Irish coffee provides in a single glass all four essential food groups : alcohol , caffeine , sugar and fat .	FORCES
+379	3	7	Only Irish coffee provides in a single glass all four essential food groups : alcohol , caffeine , sugar and fat .	NONE
+380	3	12	Only Irish coffee provides in a single glass all four essential food groups : alcohol , caffeine , sugar and fat .	FORCES
+381	2	1	Yahoo! Mail has the best spam protection around	AGENT
+382	2	6	Yahoo! Mail has the best spam protection around	INSTRUMENT
+383	1	0	I like shrimp , fried , grilled , or steamed .	AGENT
+384	1	2	I like shrimp , fried , grilled , or steamed .	FORCES
+385	3	2	Well , they have a variety of sports that they play like basketball , soccer , etc .	NONE
+386	3	5	Well , they have a variety of sports that they play like basketball , soccer , etc .	INSTRUMENT
+387	10	5	Well , they have a variety of sports that they play like basketball , soccer , etc .	INSTRUMENT
+388	10	9	Well , they have a variety of sports that they play like basketball , soccer , etc .	AGENT
+389	2	1	Well they play the Wii like me :)	AGENT
+390	2	4	Well they play the Wii like me :)	INSTRUMENT
+391	2	6	Well they play the Wii like me :)	MANNER
+392	1	0	He needs a shower , and he picks his nose all the time .	AGENT
+393	1	3	He needs a shower , and he picks his nose all the time .	NONE
+394	7	6	He needs a shower , and he picks his nose all the time .	AGENT
+395	7	9	He needs a shower , and he picks his nose all the time .	PATIENT
+396	1	0	They sell these kits in most hobby and craft stores .	AGENT
+397	1	3	They sell these kits in most hobby and craft stores .	FORCES
+398	1	9	They sell these kits in most hobby and craft stores .	NONE
+399	2	1	Yeah you got ta burn it .. that s the only way	AGENT
+400	4	5	Yeah you got ta burn it .. that s the only way	PATIENT
+401	4	2	Yes , they all have secret locator chips , just like gps	NONE
+402	4	7	Yes , they all have secret locator chips , just like gps	NONE
+403	1	0	I like my Monkey Brain on a stick for sure .	AGENT
+404	1	4	I like my Monkey Brain on a stick for sure .	PATIENT
+405	1	9	I like my Monkey Brain on a stick for sure .	NONE
+406	1	0	I mean besides me of course .	AGENT
+407	1	3	I mean besides me of course .	MANNER
+408	1	0	Someone had to be first .	AGENT
+409	1	0	I love Air France !	AGENT
+410	1	3	I love Air France !	FORCES
+411	2	1	Plus you land in a preferential terminal ...	AGENT
+412	2	6	Plus you land in a preferential terminal ...	NONE
+413	1	0	I need something reliable and good looking .	AGENT
+414	1	2	I need something reliable and good looking .	NONE
+415	2	1	Prosperity POS makes the best pos systems .	FORCES
+416	2	6	Prosperity POS makes the best pos systems .	PATIENT
+417	1	0	I use them for my restaurant and always get compliments on the sleek look of the mac system not to mention how good the support is .	AGENT
+418	1	2	I use them for my restaurant and always get compliments on the sleek look of the mac system not to mention how good the support is .	PATIENT
+419	1	5	I use them for my restaurant and always get compliments on the sleek look of the mac system not to mention how good the support is .	MANNER
+420	1	0	I like music very loud and with a lot of bass .	AGENT
+421	1	2	I like music very loud and with a lot of bass .	FORCES
+422	2	4	Well there s Mc. Donald s , Taco Bell , Burger King .....	INSTRUMENT
+423	1	0	I prefer Royal Caribbean out of all these .	AGENT
+424	1	3	I prefer Royal Caribbean out of all these .	FORCES
+425	1	7	I prefer Royal Caribbean out of all these .	NONE
+426	1	3	There is so much to do onboard .	FORCES
+427	1	0	NCL is a notch below either , in terms of quality and service .	INSTRUMENT
+428	1	5	NCL is a notch below either , in terms of quality and service .	MANNER
+429	1	8	NCL is a notch below either , in terms of quality and service .	MANNER
+430	1	0	Mine does .	FORCES
+431	1	0	I have the HTC Evo .	AGENT
+432	1	4	I have the HTC Evo .	INSTRUMENT
+433	6	2	""" In Argentina , beef is revered , respected , and praised ."	NONE
+434	6	4	""" In Argentina , beef is revered , respected , and praised ."	FORCES
+435	6	2	"The actual word "" MAD "" has to be on the cover and incorporated into the image ."	INSTRUMENT
+436	1	0	They chased the Communists out of the capital ( Hanoi ) and retook control .	AGENT
+437	1	3	They chased the Communists out of the capital ( Hanoi ) and retook control .	AGENT
+438	1	7	They chased the Communists out of the capital ( Hanoi ) and retook control .	NONE
+439	12	13	They chased the Communists out of the capital ( Hanoi ) and retook control .	PATIENT
+440	1	0	You need to check out the French Indochina War ( 1946 - 1954 ) not the Vietnam War ( 1957 - 1975 ) .	NONE
+441	3	8	You need to check out the French Indochina War ( 1946 - 1954 ) not the Vietnam War ( 1957 - 1975 ) .	INSTRUMENT
+442	1	0	I assume you are talking about a pacman frog .	AGENT
+443	4	2	I assume you are talking about a pacman frog .	AGENT
+444	1	2	There are plenty of cheap restaurants .	NONE
+445	1	0	I need suggestions for San Francisco restaurants with good food and good catering service .?	AGENT
+446	1	2	I need suggestions for San Francisco restaurants with good food and good catering service .?	NONE
+447	1	0	I need suggestions on restaurants in San Francisco with good food and good catering service .	AGENT
+448	1	2	I need suggestions on restaurants in San Francisco with good food and good catering service .	NONE
+449	1	0	I have two upcoming events one is for 200 and another is for 21 .	AGENT
+450	1	4	I have two upcoming events one is for 200 and another is for 21 .	FORCES
+451	2	1	prime ribs have very good food but it s super expensive	FORCES
+452	2	5	prime ribs have very good food but it s super expensive	INSTRUMENT
+453	1	0	Ounces measure weight , pints measure volume .	INSTRUMENT
+454	1	2	Ounces measure weight , pints measure volume .	NONE
+455	5	4	Ounces measure weight , pints measure volume .	INSTRUMENT
+456	5	6	Ounces measure weight , pints measure volume .	PATIENT
+457	1	0	i love The Script and know the re from iraland .	AGENT
+458	1	3	i love The Script and know the re from iraland .	AGENT
+459	5	1	The thing about The Script is they do not sound that Irish , I was surprised to hear they were from Dublin .	INSTRUMENT
+460	9	6	The thing about The Script is they do not sound that Irish , I was surprised to hear they were from Dublin .	INSTRUMENT
+461	15	13	The thing about The Script is they do not sound that Irish , I was surprised to hear they were from Dublin .	PATIENT
+462	1	0	I think you will be pleased .	AGENT
+463	1	0	"I doubt you will get a sensible answer in the "" TRAVEL "" section ."	AGENT
+464	2	3	And there 's nothing distinctly Irish about them .	INSTRUMENT
+465	1	0	they do some good waterproof raincoats	AGENT
+466	1	5	they do some good waterproof raincoats	PATIENT
+467	4	0	All you can do is take each section ( individual video ) and edit them together on software .	NONE
+468	13	14	All you can do is take each section ( individual video ) and edit them together on software .	PATIENT
+469	1	0	I have a Nacho Libre question .?	AGENT
+470	1	5	I have a Nacho Libre question .?	FORCES
+471	1	0	I know it s in the wrong catagory , but still , I wrote this question for a reason , not for you to critisize me .	AGENT
+472	13	12	I know it s in the wrong catagory , but still , I wrote this question for a reason , not for you to critisize me .	AGENT
+473	13	15	I know it s in the wrong catagory , but still , I wrote this question for a reason , not for you to critisize me .	PATIENT
+474	24	22	I know it s in the wrong catagory , but still , I wrote this question for a reason , not for you to critisize me .	AGENT
+475	24	25	I know it s in the wrong catagory , but still , I wrote this question for a reason , not for you to critisize me .	PATIENT
+476	3	1	Nacho Libre is suppose to be inspired in Mexicans , not in Argentineans .	NONE
+477	7	0	Any of the tip - top places have great ice - cream , get them to mix it up .	INSTRUMENT
+478	7	11	Any of the tip - top places have great ice - cream , get them to mix it up .	FORCES
+479	16	17	Any of the tip - top places have great ice - cream , get them to mix it up .	PATIENT
+480	2	0	Hackney 's has a great burger formula that started about 80 years ago .	NONE
+481	2	6	Hackney 's has a great burger formula that started about 80 years ago .	INSTRUMENT
+482	8	6	Hackney 's has a great burger formula that started about 80 years ago .	FORCES
+483	1	0	i doing a research paper on donatello and i notice that there are two statues of David , a bronze one and marble one .	AGENT
+484	1	4	i doing a research paper on donatello and i notice that there are two statues of David , a bronze one and marble one .	PATIENT
+485	9	8	i doing a research paper on donatello and i notice that there are two statues of David , a bronze one and marble one .	AGENT
+486	1	0	I have a friend out in Chicago this week , and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago .	AGENT
+487	1	3	I have a friend out in Chicago this week , and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago .	AGENT
+488	15	17	I have a friend out in Chicago this week , and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago .	NONE
+489	25	24	I have a friend out in Chicago this week , and I am trying to remember the name of an awesome hibachi style restaurant i visited while out there a couple years ago .	AGENT
+490	1	0	I think it was in the Lincoln Square area but do n't quote me on that .	AGENT
+491	12	13	I think it was in the Lincoln Square area but do n't quote me on that .	AGENT
+492	4	2	It's ' gimmick ' was that you fill your bowl cafeteria - style from raw ingredients and leave it on the counter with a chopstick listing your table number on it .	NONE
+493	7	6	It's ' gimmick ' was that you fill your bowl cafeteria - style from raw ingredients and leave it on the counter with a chopstick listing your table number on it .	AGENT
+494	7	9	It's ' gimmick ' was that you fill your bowl cafeteria - style from raw ingredients and leave it on the counter with a chopstick listing your table number on it .	PATIENT
+495	25	28	It's ' gimmick ' was that you fill your bowl cafeteria - style from raw ingredients and leave it on the counter with a chopstick listing your table number on it .	INSTRUMENT
+496	8	1	Four guys around a large square open hibachi cook your food , and when it 's finished a server brings it to your table .	AGENT
+497	8	10	Four guys around a large square open hibachi cook your food , and when it 's finished a server brings it to your table .	FORCES
+498	16	14	Four guys around a large square open hibachi cook your food , and when it 's finished a server brings it to your table .	FORCES
+499	19	18	Four guys around a large square open hibachi cook your food , and when it 's finished a server brings it to your table .	AGENT
+500	19	20	Four guys around a large square open hibachi cook your food , and when it 's finished a server brings it to your table .	NONE
+501	1	0	I shoot a t1i and have n't had such an issue .	AGENT
+502	1	3	I shoot a t1i and have n't had such an issue .	AGENT
+503	2	1	My friend goes to the Phils every 6 months or so and she has found that Korean Air has had the cheapest fares lately .	AGENT
+504	2	5	My friend goes to the Phils every 6 months or so and she has found that Korean Air has had the cheapest fares lately .	NONE
+505	10	4	"On my last 6 trips here from the states I used "" Fly genesis "" based in Seattle , Wa ."	NONE
+506	10	9	"On my last 6 trips here from the states I used "" Fly genesis "" based in Seattle , Wa ."	AGENT
+507	10	13	"On my last 6 trips here from the states I used "" Fly genesis "" based in Seattle , Wa ."	AGENT
+508	1	0	They gave the best service & rates I could find .	AGENT
+509	1	4	They gave the best service & rates I could find .	NONE
+510	4	0	Most of the deals let you eat for 500 ff , and some of the deals are even free .	FORCES
+511	6	5	Most of the deals let you eat for 500 ff , and some of the deals are even free .	AGENT
+512	2	1	The pancakes are to die for .	PATIENT
+513	1	0	they recovered the pics geeksquad deleted .	AGENT
+514	1	3	they recovered the pics geeksquad deleted .	FORCES
+515	5	4	they recovered the pics geeksquad deleted .	AGENT
+516	6	2	The best Supermarket in Bay Ridge have everything what a customer needs .	INSTRUMENT
+517	6	7	The best Supermarket in Bay Ridge have everything what a customer needs .	NONE
+518	1	0	We got upgraded to a corner suite !	AGENT
+519	1	0	I love this place lots of people to talk to and school is across the street !	AGENT
+520	1	3	I love this place lots of people to talk to and school is across the street !	FORCES
+521	1	0	Who does that ?!	AGENT
+522	1	2	Who does that ?!	INSTRUMENT
+523	3	2	Very good hospitality offered .!	INSTRUMENT
+524	1	0	I had to get a permit here , it was cool	AGENT
+525	5	4	My 8 year old daughter loves this place .	AGENT
+526	5	7	My 8 year old daughter loves this place .	INSTRUMENT
+527	1	0	I appreciate the quick , good service and the reasonable prices and will definitely use American Pride Irrigation & Landscaping again .	AGENT
+528	1	6	I appreciate the quick , good service and the reasonable prices and will definitely use American Pride Irrigation & Landscaping again .	FORCES
+529	1	0	I like I Move CA - Los Angeles Movers , they moved me before , but this time they were awesome :)	AGENT
+530	1	8	I like I Move CA - Los Angeles Movers , they moved me before , but this time they were awesome :)	AGENT
+531	3	2	I like I Move CA - Los Angeles Movers , they moved me before , but this time they were awesome :)	NONE
+532	11	10	I like I Move CA - Los Angeles Movers , they moved me before , but this time they were awesome :)	AGENT
+533	11	12	I like I Move CA - Los Angeles Movers , they moved me before , but this time they were awesome :)	AGENT
+534	1	4	There is no lower rating for Noonan 's Liquor , owners and employees .	INSTRUMENT
+535	4	0	Restaurant on top was renovated , food was decent , price was way to high for Duluth for quality , new decor seems tacky	AGENT
+536	22	21	Restaurant on top was renovated , food was decent , price was way to high for Duluth for quality , new decor seems tacky	FORCES
+537	2	1	These guys took Customer Service 101 from a Neanderthal .	NONE
+538	2	4	These guys took Customer Service 101 from a Neanderthal .	NONE
+539	2	8	These guys took Customer Service 101 from a Neanderthal .	NONE
+540	2	1	The workers sped up and down the street with no mind to the small children playing .	AGENT
+541	2	7	The workers sped up and down the street with no mind to the small children playing .	MANNER
+542	2	10	The workers sped up and down the street with no mind to the small children playing .	MANNER
+543	5	0	Daniel and his assistant both did a great job .	AGENT
+544	5	8	Daniel and his assistant both did a great job .	PATIENT
+545	1	0	They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .	AGENT
+546	1	3	They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .	AGENT
+547	1	5	They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .	MANNER
+548	13	11	They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .	AGENT
+549	13	16	They treat there employees with respect and concern and expect that they will extend the same politeness to there customers .	INSTRUMENT
+550	1	0	I worked with Sam Mones who took great care of me .	AGENT
+551	1	4	I worked with Sam Mones who took great care of me .	MANNER
+552	1	0	Sanctuary serves delicious , somewhat healthy food in a great restaurant / fast food style .	AGENT
+553	1	6	Sanctuary serves delicious , somewhat healthy food in a great restaurant / fast food style .	FORCES
+554	1	14	Sanctuary serves delicious , somewhat healthy food in a great restaurant / fast food style .	NONE
+555	2	1	And they deliver !	AGENT
+556	2	1	The place smells and the owner is very very rude !	FORCES
+557	2	1	Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism !	AGENT
+558	2	3	Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism !	PATIENT
+559	2	6	Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism !	NONE
+560	4	1	Her flexibility and accessibility made for an easy closing .	FORCES
+561	4	8	Her flexibility and accessibility made for an easy closing .	MANNER
+562	1	0	I have no complaints about the service I received .	AGENT
+563	1	3	I have no complaints about the service I received .	INSTRUMENT
+564	3	1	THE TEACHING THERE SUCKS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	FORCES
+565	1	0	We love everything about the fence .	AGENT
+566	1	2	We love everything about the fence .	FORCES
+567	4	2	A fast service , saved a bad situation getting a lot worse .	FORCES
+568	4	7	A fast service , saved a bad situation getting a lot worse .	NONE
+569	1	0	Paula has an amazing gift for creativity , vision and the ability to combine art to / with commercial purpose .	AGENT
+570	1	4	Paula has an amazing gift for creativity , vision and the ability to combine art to / with commercial purpose .	NONE
+571	13	14	Paula has an amazing gift for creativity , vision and the ability to combine art to / with commercial purpose .	PATIENT
+572	2	1	These guys know what they 're doing !	AGENT
+573	2	1	Fried rice has NO flavor , it literally taste like water .	FORCES
+574	2	4	Fried rice has NO flavor , it literally taste like water .	NONE
+575	1	0	i wish the other utilities i had to set up had people to work with like this ..	AGENT
+576	1	0	I use their limo services for all of my airport car services and airport transportation needs	AGENT
+577	1	4	I use their limo services for all of my airport car services and airport transportation needs	AGENT
+578	1	6	I use their limo services for all of my airport car services and airport transportation needs	MANNER
+579	1	0	They specialize in financial institutions , medical , and retail projects .	AGENT
+580	1	4	They specialize in financial institutions , medical , and retail projects .	MANNER
+581	2	1	These guys know what they 're doing and helped me in all phases of our project .	AGENT
+582	1	0	They have fresh flowers , lasted a long while in the vase , and the two ladies at the shop know the business well .	AGENT
+583	1	3	They have fresh flowers , lasted a long while in the vase , and the two ladies at the shop know the business well .	PATIENT
+584	1	0	I had no problem with my delivery .	AGENT
+585	1	3	I had no problem with my delivery .	NONE
+586	1	0	I think this location is no longer in business .	AGENT
+587	2	1	MFJ Inc transformed our run down back yard into a place of beauty .	AGENT
+588	2	7	MFJ Inc transformed our run down back yard into a place of beauty .	FORCES
+589	2	10	MFJ Inc transformed our run down back yard into a place of beauty .	MANNER
+590	3	1	The work was completed within one week , and everything was cleaned up on completion .	FORCES
+591	3	6	The work was completed within one week , and everything was cleaned up on completion .	MANNER
+592	11	9	The work was completed within one week , and everything was cleaned up on completion .	PATIENT
+593	2	1	This place had the worst tasting pizza I have ever tasted it was possible the worst food I 've ever eaten .	AGENT
+594	2	6	This place had the worst tasting pizza I have ever tasted it was possible the worst food I 've ever eaten .	FORCES
+595	10	7	This place had the worst tasting pizza I have ever tasted it was possible the worst food I 've ever eaten .	AGENT
+596	20	17	This place had the worst tasting pizza I have ever tasted it was possible the worst food I 've ever eaten .	AGENT
+597	1	0	I have 3 children there and they are the Best .	AGENT
+598	1	3	I have 3 children there and they are the Best .	PATIENT
+599	1	0	Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !	AGENT
+600	1	3	Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !	INSTRUMENT
+601	6	8	Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !	PATIENT
+602	12	11	Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !	AGENT
+603	12	13	Bisconti wanted over $ 300 to fix my laptop and these guys fixed it for $ 90 !	PATIENT
+604	2	1	This place offers a great manicure and pedicure .	AGENT
+605	2	5	This place offers a great manicure and pedicure .	FORCES
+606	2	1	My nails looked great for the better part of 2 weeks !	FORCES
+607	2	7	My nails looked great for the better part of 2 weeks !	NONE
+608	1	0	I had to dig in a bag to find one nice feather , what a joke !	AGENT
+609	1	0	I own a property management firm and need a contractor with the credentials that Farrell Electric has .	AGENT
+610	1	5	I own a property management firm and need a contractor with the credentials that Farrell Electric has .	FORCES
+611	6	1	Good location and off road parking made our stay very convenient .	AGENT
+612	6	8	Good location and off road parking made our stay very convenient .	INSTRUMENT
+613	2	1	These guys do great work at VERY reasonable prices .	AGENT
+614	2	4	These guys do great work at VERY reasonable prices .	FORCES
+615	2	8	These guys do great work at VERY reasonable prices .	MANNER
+616	1	0	I think the women at this salon know that their business is based primarily from referrals . :)	AGENT
+617	12	10	I think the women at this salon know that their business is based primarily from referrals . :)	AGENT
+618	1	0	I love them !!!	AGENT
+619	1	2	I love them !!!	AGENT
+620	1	0	I give this place 11 / 10 .	AGENT
+621	1	3	I give this place 11 / 10 .	FORCES
+622	1	4	I give this place 11 / 10 .	NONE
+623	1	0	We order take out from here all the time and we are never disappointed .	AGENT
+624	1	3	We order take out from here all the time and we are never disappointed .	INSTRUMENT
+625	1	5	We order take out from here all the time and we are never disappointed .	NONE
+626	1	0	They picked my car up in Yarmouth and towed to Bath for a great price .	AGENT
+627	1	3	They picked my car up in Yarmouth and towed to Bath for a great price .	INSTRUMENT
+628	1	6	They picked my car up in Yarmouth and towed to Bath for a great price .	NONE
+629	1	0	I found them extremely professional and would highly recommend them .	AGENT
+630	1	2	I found them extremely professional and would highly recommend them .	AGENT
+631	1	0	"I used to take my cars there all the time , but management changes hands too frequently , the service has been slow , and they often try to "" add on "" extra services , which sometimes is not needed ."	AGENT
+632	13	12	"I used to take my cars there all the time , but management changes hands too frequently , the service has been slow , and they often try to "" add on "" extra services , which sometimes is not needed ."	AGENT
+633	13	14	"I used to take my cars there all the time , but management changes hands too frequently , the service has been slow , and they often try to "" add on "" extra services , which sometimes is not needed ."	AGENT
+634	30	34	"I used to take my cars there all the time , but management changes hands too frequently , the service has been slow , and they often try to "" add on "" extra services , which sometimes is not needed ."	FORCES
+635	1	0	She makes every item fit you perfectly .	AGENT
+636	4	3	She makes every item fit you perfectly .	PATIENT
+637	4	5	She makes every item fit you perfectly .	AGENT
+638	1	0	I remain unhappy .	AGENT
+639	2	1	The setting feels like a Sushi bar in NYC ; small , cozy , but with flair .	FORCES
+640	2	6	The setting feels like a Sushi bar in NYC ; small , cozy , but with flair .	NONE
+641	1	0	I went to this urgent care center and was blown away with their service .	AGENT
+642	1	6	I went to this urgent care center and was blown away with their service .	NONE
+643	2	1	The investors put big bucks into the building but are clueless about what makes a good dining or bar experience .	AGENT
+644	2	4	The investors put big bucks into the building but are clueless about what makes a good dining or bar experience .	PATIENT
+645	2	7	The investors put big bucks into the building but are clueless about what makes a good dining or bar experience .	NONE
+646	1	0	Michael helped shoot the majority of my firm 's website and we could not have been happier .	AGENT
+647	2	4	Michael helped shoot the majority of my firm 's website and we could not have been happier .	PATIENT
+648	1	0	I get that careless teenager kind of treatment from some of their staff ... perhaps they should hire more serious adults to help serve / cook .	NONE
+649	1	5	I get that careless teenager kind of treatment from some of their staff ... perhaps they should hire more serious adults to help serve / cook .	INSTRUMENT
+650	1	9	I get that careless teenager kind of treatment from some of their staff ... perhaps they should hire more serious adults to help serve / cook .	MANNER
+651	17	15	I get that careless teenager kind of treatment from some of their staff ... perhaps they should hire more serious adults to help serve / cook .	AGENT
+652	17	20	I get that careless teenager kind of treatment from some of their staff ... perhaps they should hire more serious adults to help serve / cook .	AGENT
+653	1	0	We tried 4 different style of donuts , they were all the same when it came to quality .	AGENT
+654	1	4	We tried 4 different style of donuts , they were all the same when it came to quality .	PATIENT
+655	1	0	I live in the neighborhood and this place is one of my favorites for a tasty , quick and inexpensive meal .	AGENT
+656	1	4	I live in the neighborhood and this place is one of my favorites for a tasty , quick and inexpensive meal .	NONE
+657	1	0	I called over the weekend due to clogged kitchen sink .	AGENT
+658	1	4	I called over the weekend due to clogged kitchen sink .	NONE
+659	1	9	I called over the weekend due to clogged kitchen sink .	NONE
+660	3	2	Deep tissue massage helps with pain in neck and shoulders	FORCES
+661	3	5	Deep tissue massage helps with pain in neck and shoulders	NONE
+662	1	0	Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area .	AGENT
+663	1	4	Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area .	INSTRUMENT
+664	8	4	Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area .	FORCES
+665	8	10	Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area .	PATIENT
+666	17	18	Seth provides deep tissue massage which has significantly reduced the pain in my neck and shoulders and added flexibility and movement back to the area .	PATIENT
+667	1	0	He listens and is excellent in diagnosing , addressing and explaining the specific issues and suggesting exercises to use .	AGENT
+668	6	13	He listens and is excellent in diagnosing , addressing and explaining the specific issues and suggesting exercises to use .	FORCES
+669	15	16	He listens and is excellent in diagnosing , addressing and explaining the specific issues and suggesting exercises to use .	FORCES
