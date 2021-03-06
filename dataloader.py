@@ -56,6 +56,7 @@ class Dataset():
         self.data_len = data_len
         self.labels = labels
         self.batch_size = batch_size
+        self.split = dataset_path.split(".")[0].split('_')[1]
 
     def process_sentence(self, tokens):
         if self.new_vocab:

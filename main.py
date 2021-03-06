@@ -29,6 +29,9 @@ def parse_arguments():
                         type=str,
                         default='train',
                         help='either train or test')
+    parser.add_argument("--gpu",
+                        action="store_true",
+                        help='use gpu')
     parser.add_argument("--train_data_path",
                         type=str,
                         default='dataset_train.tsv',
@@ -53,7 +56,7 @@ def parse_arguments():
                         help="learning rate")
     parser.add_argument("--epoch",
                         type=int,
-                        default=10,
+                        default=25,
                         help="epochs")
     parser.add_argument("--embedding_dim",
                         type=int,
@@ -63,6 +66,10 @@ def parse_arguments():
                         type=int,
                         default=200,
                         help="hidden dimension")
+    parser.add_argument("--hidden_dim2",
+                        type=int,
+                        default=0,
+                        help="hidden dimension 2")
     parser.add_argument("--output_path_prefix",
                         type=str,
                         default='agent',
@@ -71,6 +78,10 @@ def parse_arguments():
                         type=str,
                         default='AGENT',
                         help='model prefix')
+    parser.add_argument("--weight",
+                        type=float,
+                        default=1.0,
+                        help='Loss weight ratio')
 
     # Test args
     parser.add_argument("--model_path",
@@ -93,7 +104,7 @@ def save(output_prefix, output_model, args=None, vocab=None, postfix=''):
 def evaluate(args, model, criterion, dataset):
     model.eval()
 
-    if torch.cuda.is_available():
+    if args.gpu:
         device = torch.device('cuda')
     else:
         device = torch.device('cpu')
@@ -116,16 +127,16 @@ def evaluate(args, model, criterion, dataset):
         with torch.no_grad():
             output = model(preds_args, tokens, data_lens)
 
-        preds = torch.argmax(output, dim=1)
+        preds = torch.argmax(torch.softmax(output, dim=1), dim=1)
         if sum(labels) > 0:
-            fscores.append(f1_score(labels, preds))
+            fscores.append(f1_score(labels.cpu(), preds.cpu()))
         correct = sum((preds ^ labels) == 0).item()
         total_correct += correct
-        total_incorrect += (args.batch_size - correct)
+        total_incorrect += (dataset.batch_size - correct)
         loss += criterion(output, labels)
 
         total_pos_samples += torch.sum(labels)
-        total_pos_out += confusion_matrix(labels, torch.argmax(output, dim=1), labels=[0,1]).ravel()[-1]
+        total_pos_out += confusion_matrix(labels.cpu(), torch.argmax(torch.softmax(output, dim=1), dim=1).cpu(), labels=[0,1]).ravel()[-1]
     results = {}
     results['total_loss'] = loss.item()
     results['TPR'] = total_pos_out/total_pos_samples
@@ -134,26 +145,30 @@ def evaluate(args, model, criterion, dataset):
     results['accuracy'] = total_correct / (total_incorrect + total_correct)
     results['avg_f1'] = np.mean(fscores)
     print("VALID\t"+"\t".join([f"{k}= {v}" for k,v in results.items()]))
-    return results['total_loss']
+    return results
 
 
 def train(args):
     dataset = Dataset(args.train_data_path, args.batch_size, target_label=args.target_label)
     valid_dataset = Dataset(args.dev_data_path, args.batch_size, target_label=args.target_label)
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(torch.tensor([1.0, args.weight]))
     lr = args.learning_rate
-    model = LSTM_model(args.embedding_dim, args.hidden_dim, len(dataset.vocab.itos))
+    model = LSTM_model(args.embedding_dim, args.hidden_dim, len(dataset.vocab.itos), args.hidden_dim2)
     best_loss = math.inf
+    best_TPR = -math.inf
+    best_f1 = -math.inf
 
     params = model.parameters()
     optimizer = torch.optim.Adam(params, lr=lr)
     # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, 1.0, gamma=0.95)
 
     start = time.time()
-    if torch.cuda.is_available():
+    if args.gpu:
         device = torch.device('cuda')
     else:
         device = torch.device('cpu')
+
+    model = model.to(device)
 
     for ep in range(args.epoch):
         total_loss = 0
@@ -169,6 +184,7 @@ def train(args):
             preds_args = preds_args.to(device)
             # Step 3. Run our forward pass.
             # tag_scores = model(sentence_in)
+            # import pdb;pdb.set_trace()
             output = model(preds_args, tokens, data_lens)
 
             loss = criterion(output, labels)
@@ -181,19 +197,39 @@ def train(args):
             processed_batches += 1
 
             total_pos_samples += torch.sum(labels).item()
-            total_pos_out += confusion_matrix(labels, torch.argmax(output, dim=1), labels=[0,1]).ravel()[-1]
-            if total_pos_out > total_pos_samples:
-                print("THIS SHOULDN'T HAPPEN")
+            total_pos_out += confusion_matrix(labels.cpu(), torch.argmax(torch.softmax(output, dim=1), dim=1).cpu(), labels=[0,1]).ravel()[-1]
 
             if processed_batches % 10 == 0:
                 print(f"TRAIN\tLoss= {loss.item()}\tTPR= {total_pos_out/total_pos_samples}")
             if processed_batches % 100 == 0:
-                eval_loss = evaluate(args, model, criterion, valid_dataset)
+                result = evaluate(args, model, criterion, valid_dataset)
                 model.train()
-                if eval_loss < best_loss:
-                    best_loss = eval_loss
-                    print(f"Saving best model with loss: {eval_loss}")
+                if result['total_loss'] < best_loss:
+                    best_loss = result['total_loss']
+                    print(f"Saving best model with loss: {result['total_loss']}")
                     save(args.output_path_prefix, model, args, dataset.vocab, postfix='.best')
+                if result['TPR'] > best_TPR:
+                    best_TPR = result['TPR']
+                    print(f"Saving best model with TPR: {result['TPR']}")
+                    save(args.output_path_prefix, model, args, dataset.vocab, postfix='.TPR.best')
+                if result['avg_f1'] > best_f1:
+                    best_f1 = result['avg_f1']
+                    print(f"Saving best model with loss: {result['avg_f1']}")
+                    save(args.output_path_prefix, model, args, dataset.vocab, postfix='.f1.best')
+        result = evaluate(args, model, criterion, valid_dataset)
+        model.train()
+        if result['total_loss'] < best_loss:
+            best_loss = result['total_loss']
+            print(f"Saving best model with loss: {result['total_loss']}")
+            save(args.output_path_prefix, model, args, dataset.vocab, postfix='.best')
+        if result['TPR'] > best_TPR:
+            best_TPR = result['TPR']
+            print(f"Saving best model with TPR: {result['TPR']}")
+            save(args.output_path_prefix, model, args, dataset.vocab, postfix='.TPR.best')
+        if result['avg_f1'] > best_f1:
+            best_f1 = result['avg_f1']
+            print(f"Saving best model with loss: {result['avg_f1']}")
+            save(args.output_path_prefix, model, args, dataset.vocab, postfix='.f1.best')
 
 
 if __name__ == '__main__':
@@ -203,8 +239,13 @@ if __name__ == '__main__':
         train(args)
     if args.mode == 'test':
         saved = load_model(args.model_path)
-        model = LSTM_model(saved[1].embedding_dim, saved[1].hidden_dim, len(saved[2].itos))
+        model = LSTM_model(saved[1].embedding_dim, saved[1].hidden_dim, len(saved[2].itos), saved[1].hidden_dim2)
         model.load_state_dict(saved[0])
         model.eval()
-        dataset = Dataset(args.test_data_path, args.batch_size, target_label=args.target_label)
-        test(args, model, dataset)
+        dataset = Dataset(args.train_data_path, args.batch_size, target_label=args.target_label)
+        datasets = [
+            dataset,
+            Dataset(args.dev_data_path, args.batch_size, vocab=dataset.vocab, target_label=args.target_label),
+            Dataset(args.test_data_path, args.batch_size, vocab=dataset.vocab, target_label=args.target_label)
+        ]
+        test(args, model, datasets)

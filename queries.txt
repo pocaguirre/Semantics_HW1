@@ -1,0 +1,70 @@
+AGENT
+"""
+    SELECT ?pred
+    WHERE {
+        ?pred <domain> <semantics>;
+                <type> <dependency>;
+                <volition> ?volition;
+                <instigation> ?instigation;
+                <existed-before> ?existed
+                FILTER ((?volition > 0 || ?instigation > 0) && ?existed > 0)
+    }
+"""
+
+PATIENT
+"""
+    SELECT ?pred
+    WHERE {
+        ?pred <domain> <semantics>;
+                <type> <dependency>;
+                <change-of-state> ?change-of-state;
+                <change-of-state-continuous> ?change-of-state-continuous;
+                <instigated> ?instigated;
+                <volition> ?volition
+                FILTER ((change-of-state > 0 || change-of-state-continuous > 0) && instigated <= 0 && volition <= 0)
+    }
+"""
+
+INSTRUMENT
+"""
+    SELECT ?pred
+    WHERE {
+        ?pred <domain> <semantics>;
+                <type> <dependency>;
+                <was-used> ?was-used;
+                <volition> ?volition;
+                <sentient> ?sentient;
+                <awareness> ?awareness
+                FILTER (was-used > 0 && volition <= 0 && sentient <= 0 && awareness <= 0)
+    }
+"""
+
+FORCE
+"""
+    SELECT ?pred
+    WHERE {
+        ?pred <domain> <semantics>;
+                <type> <dependency>;
+                <instigation> ?instigation;
+                <existed-during> ?existed-during;
+                <sentient> ?sentient;
+                <volition> ?volition;
+                <awareness> ?awareness
+                FILTER (instigation > 0 && existed-during > 0 && sentient <= 0 && volition <= 0 && awareness <= 0)
+    }
+"""
+
+MANNER
+"""
+    SELECT ?pred
+    WHERE {
+        ?pred <domain> <semantics>;
+                <type> <dependency>;
+                <manner> ?manner
+                FILTER (manner > 0)
+    }
+"""
+
+
+FORCE = .98 .96
+AGENT = .97 .99
